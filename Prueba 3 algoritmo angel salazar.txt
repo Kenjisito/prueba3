@@ -1,0 +1,26 @@
+from io import RawIOBase
+class vehiculo:
+
+  def __init__(self,tipo,patente,marca,precio):
+    self.tipo = tipo
+    self.patente = patente
+    self.marca = marca
+    self.precio = precio
+
+  def gettipo(self):
+    return self.tipo
+  def getpatente(self):
+    return self.patente
+  def getmarca(self):
+    return self.marca
+  def getprecio(self):
+    return self.precio
+
+  def mostrarvehiculo(self):
+    print("\nplaca: "+self.gettipo()+"\npatente:"+self.getpatente()+"\nmarca: "+self.getmarca()+
+         "\nprecio: "str(self.getprecio()) )
+  
+tipo= raw_input("favor ingresar tipo:")
+patente= raw_input("favor ingresar patente")
+marca
+precio
